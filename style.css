@@ -1,0 +1,59 @@
+/* defined css*/
+
+header, section, article,footer,img, .container, body{
+    border: 2px solid lightgrey;
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    color: black;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right,green, yellow)
+}
+
+#header-main {
+    display: inline;
+    /* background-color: blue; */
+}
+
+h1, h2, h3{
+    text-decoration: underline;
+}
+
+#logo{
+    border: 2px solid black;
+    border-radius: 90px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 16px;    
+}
+
+nav {
+    float: right;
+    
+}
+
+nav ul{
+    padding-left:0px;
+}
+
+
+#plogo{
+    color:blue;
+    position: relative;
+    display:inline;
+    font-size: 60px;
+    left: 40px;
+    bottom: 5px;
+    font-style: italic;
+}
+
+table, tr, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+
+
